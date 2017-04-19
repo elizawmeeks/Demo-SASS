@@ -1,0 +1,45 @@
+body {
+  background: #f3eff5;
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+li a {
+  text-decoration: none; }
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background: #454955;
+  align-items: center; }
+  .navbar h1 {
+    margin-right: auto;
+    color: #3f7d20; }
+  .navbar a {
+    text-decoration: none;
+    color: #3f7d20;
+    padding: 1em; }
+    .navbar a:hover {
+      color: #f3eff5; }
+
+.products, .contact {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto; }
+  .products h2, .contact h2 {
+    text-align: center;
+    width: 100%; }
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #72B01d;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%; }
+
+/*# sourceMappingURL=main.css.map */

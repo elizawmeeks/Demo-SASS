@@ -1,0 +1,18 @@
+.navbar {
+	@include flex;
+	background: $primary;
+	align-items: center;
+	h1 {
+		margin-right: auto;
+		color: $secondary;
+	}
+	a {
+		text-decoration: none;
+		color: $secondary;
+		padding: 1em;
+		&:hover {
+			color: $white;
+		}
+	}
+
+}

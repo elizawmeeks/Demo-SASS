@@ -1,0 +1,30 @@
+$primary: #454955;
+$secondary: #3f7d20;
+$tertiary: #72B01d;
+$white: #f3eff5;
+$border: 1px solid $tertiary;
+
+// Mixins : Longer argument variables
+
+@mixin flex {
+	display: flex;
+	justify-content: space-around;
+}
+
+body {
+	background: $white;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+li a {
+	text-decoration: none;
+}
+
+@import "navbar";
+@import "contact";
+@import "products";
